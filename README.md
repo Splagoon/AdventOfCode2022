@@ -6,7 +6,7 @@
 
 ## Running the Code
 
-Each puzzle will have its own folder in this repository, named with the day of the month the puzzle was posted. Each folder will have the input as a text file and the solution as an Elixir script. To run the solutions, you must have [Elixir 1.14+](https://elixir-lang.org/install.html) installed.
+Puzzle solutions will be stored in the `lib/` folder as `XX.exs`, where `XX` is the date of the puzzle, `01` through `25`. Inputs will similarly be stored in the `data/` folder as `XX.txt`. To run the solutions, you must have [Elixir 1.14+](https://elixir-lang.org/install.html) installed.
 
 Open the repo on the command line and first install the dependencies:
 ```sh
@@ -14,7 +14,7 @@ mix deps.get
 ```
 Then run a solution with:
 ```sh
-mix run lib/XX/solution.exs
+mix run lib/XX.exs
 ```
 Where `XX` is the date of the puzzle, `01` through `25`.
 
